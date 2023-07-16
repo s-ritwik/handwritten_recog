@@ -1,0 +1,9 @@
+import numpy as np
+a=np.array([[2,1],[1,3]])
+print(a)
+# cal=A.sum(axis=0)
+# print(cal)
+# percent=100*A/cal.reshape(1,3)
+# print(percent)
+a=np.dot(a,a)
+print(a)
